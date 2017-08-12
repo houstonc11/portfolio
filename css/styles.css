@@ -584,7 +584,8 @@ footer {
 
 .project-image {
     float: left;
-    
+    max-width: 420px;
+    max-height: 300px;
 }
 
 .project-info {

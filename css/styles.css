@@ -401,7 +401,10 @@ footer {
 
 #about p {
     color: #74808a;
-    margin: 0
+    margin: 0;
+    -webkit-columns: 2;
+  -moz-columns: 2;
+  column-gap: 40px;
 }
 
 #experience {
@@ -590,20 +593,33 @@ footer {
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     margin-left: 430px;
-    padding: 15px
+    padding: 15px;
+    
 }
 
 .project-info h3 {
     font-size: 1.5em;
-    font-weight: 300;
+    font-weight: 500;
     color: #374054;
-    margin: 0 0 15px 0
+    margin: 0 0 15px 0;
 }
 
 .project-info p {
     color: #74808a;
     margin: 0 0 15px 0;
-    font-size: 0.9em
+    font-size: 0.9em;
+    text-align: left;
+}
+
+.project-info ul {
+    color: #74808a;
+    margin: 0 0 15px 0;
+    font-size: 0.9em;
+    text-align: left;
+    columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  list-style-position: inside;
 }
 
 #more-projects {
@@ -624,7 +640,7 @@ footer {
     display: block;
     margin: 0 auto;
     padding: 0;
-    max-width: 800px
+    max-width: 700px
 }
 
 #skills li {

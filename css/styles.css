@@ -617,9 +617,6 @@ footer {
     font-size: 0.9em;
     text-align: left;
     
-  -webkit-columns: 2;
-  -moz-columns: 2;
-  list-style-position: inside;
 }
 
 #more-projects {

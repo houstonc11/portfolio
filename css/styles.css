@@ -265,7 +265,7 @@ footer {
     content: '';
     top: 100%;
     height: 1px;
-    width: 50px;
+    width: 70px;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -392,7 +392,8 @@ footer {
 
 #about {
     padding: 75px 15px;
-    border-bottom: 1px solid #dcd9d9
+    border-bottom: 1px solid #dcd9d9;
+    text-align: center;
 }
 
 #about h2 {
@@ -400,12 +401,14 @@ footer {
 }
 
 #about p {
+    display: block;
     color: #74808a;
     margin: 0;
     -webkit-columns: 2;
   -moz-columns: 2;
   column-gap: 40px;
 }
+
 
 #experience {
     padding: 50px 15px;
